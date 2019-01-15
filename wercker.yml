@@ -24,3 +24,4 @@ push-release:
         working-dir: /pipeline/source
         ports: 8080
         cmd: sh target/bin/start
+        
