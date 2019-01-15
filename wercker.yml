@@ -20,7 +20,7 @@ push-release:
         password: $DOCKER_PASSWORD
         repository: $DOCKER_REPO
         registry:  https://index.docker.io/v1/
-        tag: $WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
+        tag: latest
         working-dir: /pipeline/source
         ports: 8080
         cmd: sh target/bin/start
