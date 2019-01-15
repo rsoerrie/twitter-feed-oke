@@ -19,7 +19,7 @@ push-release:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
         repository: $DOCKER_USERNAME/twitter-feed-oke
-        registry:  https://hub.docker.com
+        registry:  https://index.docker.io/v1/
         tag: latest
         working-dir: /pipeline/source
         ports: 8080
